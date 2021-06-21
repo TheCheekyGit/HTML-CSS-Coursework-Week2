@@ -5,6 +5,10 @@ body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
+button {
+  font-family: 'Roboto';sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
 
 /**
  * Add your custom styles below
@@ -17,3 +21,167 @@ body {
  */
 
 
+/**
+ * Base styles to use at the start of the class
+ *
+ * Module: HTML/CSS
+ * Lesson: 1,2
+ * Class: Scotland 2017
+ */
+
+html,
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+}
+
+button {
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Navigation */
+
+.navbar-brand > img {
+  position:sticky;
+  max-height: 40px;
+  width: auto;
+}
+
+.navbar-light .navbar-toggler {
+  width: 100%;
+  border: 0;
+  right: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #292b2c;
+  font-weight: 600;
+  position:center;
+  padding:0.5rem;
+
+  /* Challenge: can you make the navigation links orange on hover? */
+}
+
+/* Buttons */
+
+/* Learn more button */
+
+.buttonorange-red {
+  color: rgb(255, 252, 251);
+  background-color: orangered;
+  border-radius: 3px;
+  border: none;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: center;
+  font-size: 10px;
+  margin: 10px 20px;
+  cursor: pointer;
+}
+
+/* Alert */
+
+.alert {
+  position: center;
+  margin-bottom: 3em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  border: 1px solid #dccdc6;
+  border-radius: 0;
+  font-size: 0.85rem;
+  line-height: 1.3em;
+  background: transparent;
+  color: #292b2c;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+  background-image: url("img/first-background.jpg");
+  background-position: center;
+  color: #ffffff;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Headings */
+
+
+/*Karma*/
+ h2{
+  position: center;
+}
+
+/* Article */
+.article-container {
+  display: flex;
+  flex-direction: row;
+  position:center;
+}
+.article {
+  margin: 10px;
+  padding: 5px;
+  margin: 15px;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+}
+
+.article__image {
+ position: center;
+  width: 5rem;
+  padding-right: 25px;
+}
+
+.article__title {
+  margin-bottom: 0.5em;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.article__read-more a {
+  font-size: 0.85em;
+  font-weight: 700;
+  text-decoration: uppercase;
+}
+
+.article__read-more a:hover,
+.article__read-more a:focus {
+  text-decoration: none;
+}
+
+.article__read-more .fa {
+  margin-right: 0.5em;
+  color: #c05326;
+}
+
+.article__read-more:last-child {
+  margin-bottom: 0;
+}
+
+/* Footer */
+
+.footer_container {
+  display: flex;
+  flex-direction: row;
+  box-align: center;
+  
+}
+.footerInc{
+  padding: 1 rem;
+  position: center;
+}
+
+/* Media queries */
+
+@media screen and (min-width: 992px) {
+  .navbar-brand > img {
+    max-height: 80px;
+  }
+}
